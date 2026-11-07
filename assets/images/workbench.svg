@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+<defs><linearGradient id="case" x1="150" y1="180" x2="430" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#d6d6ba"/><stop offset="1" stop-color="#9caa83"/></linearGradient><linearGradient id="edge" x1="140" y1="340" x2="370" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#7d8a65"/><stop offset="1" stop-color="#49533d"/></linearGradient><linearGradient id="screen" x1="260" y1="110" x2="400" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#303c21"/><stop offset="1" stop-color="#82905b"/></linearGradient><pattern id="pixels" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0v5" stroke="#18250f" stroke-opacity=".1"/></pattern></defs>
+<!-- Original console illustration, drawn for Slek Lab. -->
+<ellipse cx="310" cy="401" rx="190" ry="28" fill="#000" opacity=".28"/>
+<!-- Workbench coordinate marks -->
+<g stroke="#657347" opacity=".7"><path d="M55 115v-17h17m432 17V98h-17M55 373v17h17m432-17v17h-17"/><path d="M103 450h70m-35-5v10M458 65h50m-25-5v10"/></g>
+<!-- Cable -->
+<path d="M392 333c91 27 120 18 126-23 7-47-61-48-62-94-1-25 36-26 33-52" stroke="#0b0e09" stroke-width="13"/><path d="M392 330c91 27 120 18 126-23 7-47-61-48-62-94-1-25 36-26 33-52" stroke="#65714d" stroke-width="7"/>
+<!-- Handheld, perspective shell -->
+<path d="m202 77 211 46c13 3 20 15 16 28l-69 246c-5 16-18 23-33 19l-207-55c-12-3-18-15-14-29l74-240c4-12 11-18 22-15Z" fill="#4b583c" stroke="#10180d" stroke-width="3"/>
+<path d="m192 66 212 45c13 3 20 15 16 28l-71 246c-4 14-16 21-30 17l-210-55c-12-3-18-15-14-29l75-236c4-13 11-19 22-16Z" fill="url(#case)" stroke="#dce0c0" stroke-width="2"/>
+<path d="m109 347 210 55c14 4 26-3 30-17l71-246 9 12-69 246c-5 16-18 23-33 19l-207-55Z" fill="url(#edge)"/>
+<!-- Bezel -->
+<path d="m195 92 192 42c7 1 10 7 8 14l-33 110c-2 6-7 9-13 7l-189-47c-7-2-9-8-7-14l32-103c2-7 5-10 10-9Z" fill="#30372c" stroke="#778063"/>
+<path d="m216 111 151 33-27 92-151-37Z" fill="url(#screen)" stroke="#101d0b" stroke-width="4"/>
+<path d="m216 111 151 33-27 92-151-37Z" fill="url(#pixels)"/>
+<!-- Pixel game / life icon -->
+<g transform="translate(247 145) rotate(13)"><path d="M0 8H8V0h16v8h8V0h16v8h8v24h-8v8h-8v8h-8v8h-8v-8h-8v-8H8v-8H0Z" fill="#1e3216"/><path d="M8 8h8v8H8Z" fill="#adb977"/></g>
+<circle cx="173" cy="179" r="3" fill="#ff621b"/><path d="m172 193 6 1" stroke="#7f8a70" stroke-width="2"/>
+<text x="166" y="236" transform="rotate(14 166 236)" fill="#3d4c30" font-family="monospace" font-size="8" letter-spacing="2">SLEK LAB / RE:PLAY</text>
+<!-- D-pad -->
+<path d="m155 264 15 4-5 15 15 4-4 14-15-4-4 15-15-4 5-15-15-4 4-14 15 4Z" fill="#293225" stroke="#111b0d" stroke-width="2"/>
+<path d="m153 268 12 3-5 15 15 4-2 7-15-4-4 14-8-2 4-15-14-4 2-7 14 4Z" fill="#36412e"/>
+<!-- Buttons -->
+<ellipse cx="282" cy="298" rx="15" ry="17" transform="rotate(17 282 298)" fill="#562611"/><ellipse cx="285" cy="293" rx="14" ry="15" transform="rotate(17 285 293)" fill="#ff621b" stroke="#ff9651"/>
+<ellipse cx="324" cy="282" rx="15" ry="17" transform="rotate(17 324 282)" fill="#562611"/><ellipse cx="327" cy="277" rx="14" ry="15" transform="rotate(17 327 277)" fill="#ff621b" stroke="#ff9651"/>
+<g stroke="#5c6949" stroke-width="6" stroke-linecap="round"><path d="m197 333 15-6m12 13 15-6"/></g>
+<g stroke="#596b44" stroke-width="3.5" stroke-linecap="round"><path d="m274 344 22 20m-10-25 22 20m-10-25 22 20m-10-25 22 20"/></g>
+<!-- Precision screwdriver -->
+<g transform="translate(435 354) rotate(-26)"><path d="M0-105V-6" stroke="#b4bea2" stroke-width="5"/><path d="m0-120-3 15h6Z" fill="#dae0ca"/><rect x="-10" y="-10" width="20" height="65" rx="7" fill="#f36324" stroke="#ff945a"/><path d="M-5 3v33m10-33v33" stroke="#ab3b11" stroke-width="2"/><rect x="-11" y="43" width="22" height="13" rx="5" fill="#c74b17"/></g>
+<!-- Small circuit board -->
+<g transform="translate(67 265) rotate(-15)"><rect width="51" height="69" rx="3" fill="#384e29" stroke="#75894b"/><rect x="12" y="20" width="26" height="26" fill="#171f13" stroke="#9ba77c"/><path d="M18 6v14m8-14v14m8-14v14M18 46v15m8-15v15m8-15v15" stroke="#bbb58a" stroke-width="2"/><circle cx="6" cy="6" r="2" fill="#c6b87f"/><circle cx="45" cy="62" r="2" fill="#c6b87f"/></g>
+<!-- Dimension annotation -->
+<g stroke="#657347" stroke-width="1"><path d="m127 392 189 51m-187-57-5 14m194 37-5 14"/></g><text x="180" y="435" fill="#8d9a70" font-family="monospace" font-size="9" transform="rotate(15 180 435)">ORIGINAL HARDWARE. NEW LIFE.</text>
+</svg>
